@@ -1,0 +1,47 @@
+/* Agregamos tama;o de fuente y tipo de letra*/
+html {
+  font-size: 10px;/**/
+  font-family: 'Gill Sans Extrabold",sans-serif;/**/
+}
+
+/*tama;o de fuente y alineacion*/
+h1 {
+  font-size: 100px;/*fuente tama;o*/
+  text-align: right;/*alineacion*/
+}
+
+/*tama;o de fuente y alineacion*/
+p, li {
+  font-size: 10-px;/*fuente tama;o*/
+  line-height: 6;/*establece la altura de cada línea que forma el contenido de texto*/
+  letter-spacing: 1px;/*define una cantidad adicional de espacio entre caracteres*/
+}
+
+
+html {
+  background-color: #8923A5;/**/
+}
+
+body {
+  width: 600px;/*ancho*/
+  margin: 0 auto;/*margen*/
+  background-color: #237AA5;/*fondo*/
+  padding: 0 20px 20px 20px;/*propiedad o relleno que se crea alrededor del contenido de un elemento */
+  border: 5px solid black;/*borde*/
+}
+
+h1 {
+  margin:0;/*margen*/
+  padding: 10px 0;/*ancho*/
+  color: #F23131;/*color en hexadecimal*/
+  text-shadow: 3px 3px 1px rgba(255, 255, 255, 0.576);/*sombra al texto*/
+}
+
+img {
+  display: block;/*especifica si un elemento es tratado como block or inline element*/
+  margin: 0 ;/*margen*/
+  height: 350px;
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+}
